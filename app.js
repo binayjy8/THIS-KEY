@@ -16,8 +16,16 @@
 
 // const mul = (a, b) => (a*b);
 
-console.log("khuntapingu");
+// console.log("khuntapingu");
 
-setTimeout( () => {
-    console.log("is a village");
-}, 3000);
+// setTimeout( () => {
+//     console.log("is a village");
+// }, 3000);
+
+console.log("hello");
+
+const mul = () => {
+    console.log("by by");
+}
+
+setTimeout(mul, 2000);
