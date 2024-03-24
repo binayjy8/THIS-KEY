@@ -47,7 +47,7 @@ let num = [2, 4, 7, 8];
 
 const arryAverage = (num) => {
     let res = 0;
-    for(total of num) {
+    for(let total of num) {
         res += total;
     }
 
