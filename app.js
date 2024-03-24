@@ -43,15 +43,19 @@
 //     clearInterval(id);
 // },10000);
 
-let num = [2, 4, 7, 8];
+// let num = [2, 4, 7, 8];
 
-const arryAverage = (num) => {
-    let res = 0;
-    for(let total of num) {
-        res += total;
-    }
+// const arryAverage = (num) => {
+//     let res = 0;
+//     for(let total of num) {
+//         res += total;
+//     }
 
-    return res / num.length;
-}
+//     return res / num.length;
+// }
 
-arryAverage(num);
+// arryAverage(num);
+
+let num = 2;
+
+const isEven = (num) => num % 2 == 0;
