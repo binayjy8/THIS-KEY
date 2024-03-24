@@ -22,10 +22,14 @@
 //     console.log("is a village");
 // }, 3000);
 
-console.log("hello");
+// console.log("hello");
 
-const mul = () => {
-    console.log("by by");
-}
+// const mul = () => {
+//     console.log("by by");
+// }
 
-setTimeout(mul, 2000);
+// setTimeout(mul, 2000);
+
+const squ = (n) => (n*n);
+
+console.log(squ(7));
