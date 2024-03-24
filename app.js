@@ -34,11 +34,24 @@
 
 // console.log(squ(7));
 
-let id = setInterval( () => {
-    console.log("Hello World");
-},2000);
+// let id = setInterval( () => {
+//     console.log("Hello World");
+// },2000);
 
 
-setTimeout( () => {
-    clearInterval(id);
-},10000);
+// setTimeout( () => {
+//     clearInterval(id);
+// },10000);
+
+let num = [2, 4, 7, 8];
+
+const arryAverage = (num) => {
+    let res = 0;
+    for(total of num) {
+        res += total;
+    }
+
+    return res / num.length;
+}
+
+arryAverage(num);
