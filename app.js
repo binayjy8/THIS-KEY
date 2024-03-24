@@ -30,6 +30,15 @@
 
 // setTimeout(mul, 2000);
 
-const squ = (n) => (n*n);
+// const squ = (n) => (n*n);
 
-console.log(squ(7));
+// console.log(squ(7));
+
+let id = setInterval( () => {
+    console.log("Hello World");
+},2000);
+
+
+setTimeout( () => {
+    clearInterval(id);
+},10000);
