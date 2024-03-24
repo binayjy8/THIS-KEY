@@ -56,6 +56,16 @@
 
 // arryAverage(num);
 
-let num = 2;
+// let num = 2;
 
-const isEven = (num) => num % 2 == 0;
+// const isEven = (num) => num % 2 == 0;
+
+const object = {
+    message:'Hello,World!',
+    
+    logMessage(){
+        console.log(this.message);
+    }
+};
+
+setTimeout(object.logMessage,1000);
