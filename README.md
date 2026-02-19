@@ -1,1 +1,1 @@
-# THIS-KEY is the autho
+# THIS-KEY is the author
