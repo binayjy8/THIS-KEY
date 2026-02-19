@@ -1,1 +1,1 @@
-# THIS-KEY is the auth
+# THIS-KEY is the aut
